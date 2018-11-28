@@ -1,0 +1,9 @@
+dependencies:
+- name: 3d-force-graph
+  version: 1.41.1
+  src: htmlwidgets
+  script:
+  - ./lib/3d-force-graph/3d-force-graph.js
+  - ./lib/3d-force-graph/index.js
+  - ./lib/3d-force-graph/kapsule-link.js
+  style: ./lib/3d-force-graph/3d-force-graph.css

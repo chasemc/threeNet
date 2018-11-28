@@ -1,0 +1,14 @@
+Package: threeNet
+Title: API for The ThreeJS/WebGL Component: "3d-force-graph""
+Version: 0.0.0.9000
+Authors@R: person("Chase", "Clark", email = "chasec288@gmail.com", role = c("aut", "cre"))
+Description: Renders in an html browser a javascript 3 dimensional, interactive network from data either in specified format or from an igraph object. This is simply an API for 3d-force-graph (https://github.com/vasturiano/3d-force-graph).
+Depends: R (>= 3.5.0)
+Imports:
+    htmlwidgets (>= 0.3.2),
+    igraph (>= 1.2.2),
+    jsonlite (>= 1.5)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
